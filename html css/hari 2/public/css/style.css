@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 18px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../img/pattern.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 20px;
+    margin: 80px 150px 30px;
+    background-color: white;
+    box-shadow: 0 15px 20px 10px rgba(37, 43, 70, 0.1);
+}
+
+article{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+section h1{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+footer h5{
+    text-align: center;
+}

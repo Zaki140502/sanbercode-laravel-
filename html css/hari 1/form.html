@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="judul">
+        <h1>Buat Account Baru!</h1>
+    </div>
+    <form action="welcome.html" method="get" target="_blank">
+        <h3>Sign Up Form</h3>
+        <div class="name">
+            <div class="labelname"></div>
+            <label for="name">First Name:</label>
+            <br>
+            <input type="text" name="name">
+        </div>
+        <br>
+        <div class="lastname">
+            <label for="lastname">Last Name:</label>
+            <br>
+            <input type="text" name="lastname">
+        </div>
+        <br>
+        <div class="gender">
+            <label for="gender">Gender:</label>
+            <br>
+            <div class="male">
+                <input type="radio" name="male" value="Male">
+                <label for="male">Male</label>
+            </div>
+            <div class="female">
+                <input type="radio" value="female" name="female">
+                <label for="female">female</label>
+            </div>
+            <div class="other">
+                <input type="radio" value="other" name="other">
+                <label for="other">Other</label>
+            </div>
+        </div>
+        <br>
+        <div class="nationality">
+            <label for="nationality">Nationality:</label>
+            <br>
+            <select name="nationality">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="singapura">singapura</option>
+            </select>
+        </div>
+        <br>
+        <div class="bio">
+            <label for="bio">Bio:</label>
+            <br>
+            <textarea name="bio" cols="30" rows="10"></textarea>
+        </div>
+        <div class="btnsignup">
+            <button type="submit">SignUp</button>
+        </div>
+    </form>
+</body>
+
+</html>
